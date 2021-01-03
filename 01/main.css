@@ -1,0 +1,38 @@
+/* normalize */
+/* --------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* main */
+/* -----*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+/* optional */
+/* -------- */
+header {
+  background: #ee9595;
+  height: 60px;
+}
+
+main {
+  background: #ffcda3;
+}
+
+footer {
+  background: #74c7b8;
+  height: 60px;
+}

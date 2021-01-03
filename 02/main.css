@@ -1,0 +1,51 @@
+/* normalize */
+/* --------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* main */
+/* -----*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+}
+
+aside{
+  width: 17rem;
+}
+
+main {
+  flex: 1;
+  overflow: auto;
+}
+
+/* optional */
+/* -------- */
+header {
+  background: #ee9595;
+  height: 60px;
+}
+
+footer {
+  background: #74c7b8;
+  height: 60px;
+}
+
+aside {
+  background: #fcf8e8;
+}
+
+main{
+  background: #d4e2d4;
+}

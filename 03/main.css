@@ -1,0 +1,64 @@
+/* normalize */
+/* --------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* main */
+/* -----*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+}
+
+#sidebar{
+  width: 17rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+
+article {
+  flex: 1;
+}
+
+#toc {
+  width: 17rem;
+}
+
+/* optional */
+/* -------- */
+header {
+  background: #ee9595;
+  height: 60px;
+}
+
+footer {
+  background: #74c7b8;
+  height: 60px;
+}
+
+#sidebar {
+  background: #fcf8e8;
+}
+
+article {
+  background: #d4e2d4;
+}
+
+#toc {
+  background: #c9cbff;
+}
