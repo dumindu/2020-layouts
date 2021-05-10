@@ -8,4 +8,4 @@
 4. header(4 div) 🖥️ 📱
 
 # header + sidebars
-5. header(4 div), footer(3 div), container(aside, main(article, aside)) 🖥️ 📱
+5. header(4 div), footer(4 div), container(aside, main(article, aside)) 🖥️ 📱
